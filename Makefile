@@ -8,6 +8,12 @@ dependency:
 dependency-option:
 	sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
+anaPy35:
+	conda create -n py35 python=3.5 anaconda
+
+anaPy27:
+	conda create -n py35 python=3.5 anaconda
+
 cv3.2.0:
 	wget https://github.com/opencv/opencv/archive/3.2.0.zip
 	unzip opencv-3.2.0.zip ~/
