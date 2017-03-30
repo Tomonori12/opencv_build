@@ -23,6 +23,7 @@ ana-path:
 	echo "## version 3.6"                                                 >> ~/.bashrc
 	echo "export PATH="/home/tomonori/anaconda3/envs/py35/bin:\$$PATH""   >> ~/.bashrc
 	
+	
 cv3.2.0:
 	wget https://github.com/opencv/opencv/archive/3.2.0.zip
 	unzip opencv-3.2.0.zip
@@ -31,6 +32,8 @@ cv3.1.0:
 	wget https://github.com/opencv/opencv/archive/3.1.0.zip
 	unzip opencv-3.1.0.zip
 
+qt5:
+	conda install -c dsdale24 qt5
 
 cmake3.2:
 	cd ~/opencv-3.2.0
