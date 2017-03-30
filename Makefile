@@ -25,11 +25,11 @@ ana-path:
 	
 cv3.2.0:
 	wget https://github.com/opencv/opencv/archive/3.2.0.zip
-	unzip opencv-3.2.0.zip ~/
+	unzip opencv-3.2.0.zip
 
 cv3.1.0:
 	wget https://github.com/opencv/opencv/archive/3.1.0.zip
-	unzip opencv-3.1.0.zip ~/
+	unzip opencv-3.1.0.zip
 
 
 cmake3.2:
