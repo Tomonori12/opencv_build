@@ -8,12 +8,21 @@ dependency:
 dependency-option:
 	sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
-anaPy35:
-	conda create -n py35 python=3.5 anaconda
-
 anaPy27:
 	conda create -n py35 python=3.5 anaconda
 
+anaPy35:
+	conda create -n py35 python=3.5 anaconda
+
+ana-path:
+	echo "#-----------------------------------------------------------"   >> ~/.bashrc
+	echo "# Added by Tomonori12 opencv_build"                             >> ~/.bashrc
+	echo "#-----------------------------------------------------------"   >> ~/.bashrc
+	echo "## version 2.7"                                                 >> ~/.bashrc
+	echo "export PATH="/home/tomonori/anaconda3/envs/py27/bin:\$$PATH""   >> ~/.bashrc
+	echo "## version 3.6"                                                 >> ~/.bashrc
+	echo "export PATH="/home/tomonori/anaconda3/envs/py35/bin:\$$PATH""   >> ~/.bashrc
+	
 cv3.2.0:
 	wget https://github.com/opencv/opencv/archive/3.2.0.zip
 	unzip opencv-3.2.0.zip ~/
