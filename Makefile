@@ -9,7 +9,7 @@ dependency-option:
 	sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
 anaPy27:
-	conda create -n py35 python=3.5 anaconda
+	conda create -n py27 python=2.7 anaconda
 
 anaPy35:
 	conda create -n py35 python=3.5 anaconda
