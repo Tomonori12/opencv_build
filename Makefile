@@ -26,11 +26,11 @@ ana-path:
 	
 cv3.2.0:
 	wget https://github.com/opencv/opencv/archive/3.2.0.zip
-	unzip opencv-3.2.0.zip
+	unzip 3.2.0.zip -d ~/
 
 cv3.1.0:
 	wget https://github.com/opencv/opencv/archive/3.1.0.zip
-	unzip opencv-3.1.0.zip
+	unzip 3.1.0.zip -d ~/
 
 qt5:
 	conda install -c dsdale24 qt5
