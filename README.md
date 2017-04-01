@@ -3,4 +3,5 @@
   
   
   cmakeの環境設定が怪しくてコケる。アナコンダのときにすべての変数をcmake-guiで決める。
+  
   - http://dr-kayai.hatenablog.com/entry/2015/04/05/122520
