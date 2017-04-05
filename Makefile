@@ -19,11 +19,11 @@ ana-path:
 	echo "# Added by Tomonori12 opencv_build"                             >> ~/.bashrc
 	echo "#-----------------------------------------------------------"   >> ~/.bashrc
 	echo "## version 2.7"                                                 >> ~/.bashrc
-	echo "export PATH="/home/tomonori/anaconda3/envs/py27/bin:\$$PATH""   >> ~/.bashrc
+	echo "export PATH="/home/\$$USER/anaconda3/envs/py27/bin:\$$PATH""   >> ~/.bashrc
 	echo "## version 3.5"                                                 >> ~/.bashrc
-	echo "export PATH="/home/tomonori/anaconda3/envs/py35/bin:\$$PATH""   >> ~/.bashrc
+	echo "export PATH="/home/\$$USER/anaconda3/envs/py35/bin:\$$PATH""   >> ~/.bashrc
 	echo "## original version(3.6?)"                                      >> ~/.bashrc
-	echo "export PATH="/home/hoshi/anaconda3/bin:$PATH""                  >> ~/.bashrc
+	echo "export PATH="/home/\$$USER/anaconda3/bin:$PATH""                  >> ~/.bashrc
 	
 	
 cv3.2.0:
